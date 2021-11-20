@@ -1,5 +1,8 @@
 import /microtrust.rc
 
+on init
+    export LD_LIBRARY_PATH /system/lib64/:vendor/lib64:/vendor/lib64/hw
+
 on fs
     install_keyring
     setprop crypto.ready 1
