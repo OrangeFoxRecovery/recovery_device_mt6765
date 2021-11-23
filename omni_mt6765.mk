@@ -24,9 +24,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 PRODUCT_DEVICE := mt6765
 PRODUCT_NAME := omni_mt6765
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi 9c,Redmi 9A
+PRODUCT_MODEL := Redmi 9A
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_RELEASE_NAME := Xiaomi Redmi 9 Series
+PRODUCT_RELEASE_NAME := Xiaomi Redmi 9A
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
